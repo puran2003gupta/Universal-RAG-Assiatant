@@ -96,7 +96,7 @@ with st.sidebar:
     if st.button("📤 Download chat (.json)"):
         blob = json.dumps(st.session_state.history, indent=2, ensure_ascii=False)
         st.download_button("Download JSON", data=blob, file_name=f"{st.session_state.chat_name}.json")
-    st.caption("Built with ❤️ using FastAPI + Streamlit + LangChain + Gemini")
+    st.caption("Built with Code - Developer Puran 👨🏼‍💻 ")
 
 # ---------------------
 # Main chat area
