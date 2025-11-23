@@ -8,7 +8,7 @@ beautifulsoup4==4.12.3
 langchain-community==0.2.12
 fastapi==0.114.0
 uvicorn[standard]==0.30.0
-streamlit==1.37.0
+streamlit
 mlflow==2.15.1
 python-dotenv==1.0.1
 requests==2.32.3
