@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+
+# Data (user uploads, vectors, logs, caches)
+data/chroma/
+data/pdfs/
+data/web_cache/
+data/*.db
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit transient
+.streamlit/
