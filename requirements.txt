@@ -15,5 +15,6 @@ requests==2.32.3
 numpy==1.26.4
 langchain-chroma
 python-multipart
-pyarrow==22.0.0
+pyarrow>=4.0.0,<16.0.0s
+
 
